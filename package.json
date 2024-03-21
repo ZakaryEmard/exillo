@@ -1,0 +1,36 @@
+{
+  "name": "exillo",
+  "version": "1.0.0",
+  "author": "KathryneHaag",
+  "description": "Use Node JS to scan files on your server with ClamAV's clamscan/clamdscan binary or via TCP to a remote server or local UNIX Domain socket. This is especially useful for scanning uploaded files provided by un-trusted sources.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZakaryEmard/exillo.git"
+  },
+  "dependencies": {},
+  "keywords": [
+    "clamav",
+    "accusamus",
+    "clamscan",
+    "upload",
+    "voluptatum",
+    "clam",
+    "rerum",
+    "security"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0"
+  },
+  "homepage": "https://github.com/ZakaryEmard/exillo.git"
+}
